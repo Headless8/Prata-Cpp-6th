@@ -4,6 +4,7 @@
 
 int ageConvert(int ageInYears) {
 
-	int ageInMonths = ageInYears * 12;
+	int monthsPerYear = 12;
+	int ageInMonths = ageInYears * monthsPerYear;
 	return ageInMonths;
 }
