@@ -6,7 +6,7 @@ double CelsiusToFahr(
 	double aCelsius)
 {
 	const double CELSFAHR_RATIO = 1.8;
-	const int 	 SHIFT 			= 32;
+	const int	 SHIFT 			= 32;
 	double 		 fahr;
 
 	fahr = CELSFAHR_RATIO * aCelsius + SHIFT;
